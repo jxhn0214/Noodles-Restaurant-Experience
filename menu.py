@@ -63,12 +63,19 @@ def order(dish_name):
     """
     for page in pages:
         for dish, price in pages[page].items():
-            if dish_name == dish:
+            if dish_name == dish.lower() or dish_name == dish:
                 with open("order.txt", "a") as order:
                     order.write(f"{dish}|{price:.2f}\n")
-                print(f"{dish} sucessfully added to your order.")
+                print(f"\n{dish} sucessfully added to your order ✅\n")
+                match = True
             else:
                 continue
+
+    try:
+        if not match:
+            print("\nINVALID DISH NAME ❎\n")
+    except UnboundLocalError:
+        print("\nINVALID DISH NAME ❎\n")
 
 
 def total():
@@ -85,7 +92,10 @@ def total():
             total += float(item[1])
             item[1] = f"${item[1]}"
             table.append(item)
-    total_items = ["Total", f"${total:.2f}"]
+    tax = total * 0.07
+    total_tax = ["Tax", f"${tax:.2f}"]
+    total_items = ["Total", f"${(total + tax):.2f}"]
+    table.append(total_tax)
     table.append(total_items)
     return tabulate(table, headers, tablefmt="rounded_outline")
 

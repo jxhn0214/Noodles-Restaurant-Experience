@@ -18,16 +18,13 @@ def main():
     )
     print(menu.page("1"))
     while True:
-        user_input = input(":")
+        user_input = input(":").strip()
         if user_input == "Done!":
             break
         elif user_input in page_list:
             print(menu.page(user_input))
         else:
-            try:
-                menu.order(user_input)
-            except:
-                print("INVALID DISH")
+            menu.order(user_input)
     print(menu.total())
 
     with open("order.txt", "w") as order:  # clear order
