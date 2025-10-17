@@ -32,6 +32,7 @@ init, add, commit, push, checkout, log, status, etc.
 - Go into the directory where you cloned the repo and run python3 noodles_exp.py
 - Enjoy the program
 
+---
 
 ## Demo
 ![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/82030171632da18c3593771835db0e3eea0b5249/Examples/Intro%20.png)
