@@ -25,7 +25,7 @@ pages = {
         "Red Curry": 17.00,
         "Green Curry": 16.00,
         "Yellow Curry": 16.00,
-        "Khảo Soi": 17.00,
+        "Khao Soi": 17.00,
     },
     "page_3": {
         "Bibimbap": 18.00,
