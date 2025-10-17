@@ -9,7 +9,7 @@ This project emulates the ordering experience at a local restaurant.
 This project utilizes an external library called tabulate to beautify the menu display of dishes.
 Additionally, it incorporates a module I built that handles the majority of the ordering logic.
 I created this project to hone my skills in Python concepts like list comprehensions and f-strings, along with
-ordinary programming concepts like lists, dictionaries, loops, error handling, etc.
+ordinary programming concepts like lists, dictionaries, loops, error handling, and read/write files.
 I was also able to get some experience with Git in this project, using commands like
 init, add, commit, push, checkout, log, status, etc.
 
@@ -35,6 +35,6 @@ init, add, commit, push, checkout, log, status, etc.
 ---
 
 ## Demo
-![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/82030171632da18c3593771835db0e3eea0b5249/Examples/Intro%20.png)
-![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/82030171632da18c3593771835db0e3eea0b5249/Examples/Ordering.png)
-![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/82030171632da18c3593771835db0e3eea0b5249/Examples/Total.png)
+![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/b71fc9c00fa952a2b4486b0385adc3b3f47676cc/EXAMPLES/Intro%20.png)
+![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/b71fc9c00fa952a2b4486b0385adc3b3f47676cc/EXAMPLES/Ordering.png)
+![image alt](https://github.com/jxhn0214/Noodles-Restaurant-Experience/blob/b71fc9c00fa952a2b4486b0385adc3b3f47676cc/EXAMPLES/Total.png)
