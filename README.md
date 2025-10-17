@@ -1,6 +1,6 @@
-# Project Name
+# Noodles Restaurant Experience
 
-This project is called Noodles Restaurant Experience, it emulates the ordering experience at a local restaurant.
+This project emulates the ordering experience at a local restaurant.
 
 ---
 
